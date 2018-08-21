@@ -1,0 +1,74 @@
+
+body { 
+	margin:5%; 
+	background-color: #acacec; 
+	font-family: Arial;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+img:not(#logo) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+iframe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 560px;
+	height: 315px;
+	border: 5px solid #1b2234;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1{
+  display: block;
+  text-align: center;
+  font-family: monospace;
+}
+
+h2{
+	color: white;
+    background-color: #1b2234;
+    font-family: monospace;
+}
+
+a {
+	text-decoration: none;
+	color: #fdeae4;
+}
+
+a:hover{
+	color: #1b2234;
+	text-decoration: underline;
+}
+a:active{
+	color: #5150a8;
+	text-decoration: underline;
+}
+
+ul {
+    list-style-type: korean-hanja-formal;
+}
+
+p {
+	text-align: justify;
+}
+
+a[href^="http"] {
+  background-image: url("img/globo.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+strong {
+	color: white;
+}
